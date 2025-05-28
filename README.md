@@ -92,6 +92,8 @@ npm start
 
 - Environment variables are used for GitHub OAuth secrets.
 
+
+![oauth](/images/oauth.png)
 ---
 
 ### 2. `route.ts` – NextAuth API Route
@@ -110,6 +112,8 @@ npm start
 
 - Displays the logged-in user's info using the `UserCard` component.
 
+![client](/images/client.png)
+
 ---
 
 ### 4. `components/Navbar.tsx` – Navigation Bar
@@ -125,6 +129,10 @@ npm start
 - Displays a greeting and profile image if available.
 
 - The `pagetype` prop allows customizing the message based on page context.
+
+![signin](/images/signin.png)
+
+![signout](/images/signout.png)
 
 ---
 
@@ -142,6 +150,8 @@ npm start
 
 - Shows usage of async server components in Next.js 13.
 
+![extra](/images/extra.png)
+
 ---
 
 ### 8. `server/page.tsx` – Server-Side Authenticated Page
@@ -151,6 +161,8 @@ npm start
 - Redirects unauthenticated users to the sign-in page.
 
 - Displays user info on successful authentication.
+
+![server](/images/server.png)
 
 ---
 
@@ -169,6 +181,8 @@ npm start
 - Server-rendered home page.
 
 - Shows user info if authenticated, else a restricted access message.
+
+![Home](/images/Home.png)
 
 ---
 
